@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+
+body {
+    margin: 0px;
+}
+
+header {
+    font-family: 'Passion one', Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header > h1 {
+    font-weight: bold;
+    font-size: 10vw;
+    margin: 0px;
+    font-variant: small-caps;
+    
+}
+
+
+header > aside {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+p {
+    text-align: left;
+    font-family: 'Sriracha';
+    font-size: 4vw;
+}
+
+article > p {
+    padding: 15px;
+}
+
+article > div > p {
+    font-size: 3.8vw;
+    width: max-content;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-inline: 5px;
+    left: 17px;
+    top: 10px;
+}
+
+
+#img1 {
+    position: relative;
+    height: 68vw;
+    max-height: 850px;
+    background-image: url('imgs/joaninha.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right top;
+    color: white;
+    box-shadow: inset 0 0 8px rgb(0 0 0 / 40%);
+    
+}
+
+#img2 {
+    position: relative;
+    height: 60vw;
+    background-image: url('imgs/cartas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right bottom;
+    color: white;
+    box-shadow: inset 0 0 8px rgb(0 0 0 / 40%);
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
